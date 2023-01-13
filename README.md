@@ -17,13 +17,16 @@
     ```
     http://localhost:15672/
     ```
-    The expected result is:  ![RabbitMQ login page]()
+    The expected result is:  ![RabbitMQ login page](https://user-images.githubusercontent.com/61751336/212337413-01e2f8e3-ae2d-459f-a68d-f35f04c106d5.PNG)
     
     2. Default login to rabbit is ```guest``` in both inputs (user and password)
+    
+    3. Go to Channels and check if the 2 services (sender and receiver) are connected
+      ![RabbitMQ channel page](https://user-images.githubusercontent.com/61751336/212338077-2ed0218b-911c-4b1a-8bd8-776454b7d1c6.PNG)
+    
+    4. Go to queues and check if MessageService is instanced and is running.
 
-    3. Go to channels and check if MessageService is instanced and is running.
-
-    4. send a request to sender
+    5. send a request to sender
     
     ```
     curl \
