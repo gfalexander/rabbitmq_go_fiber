@@ -5,7 +5,7 @@
 
 ## Quick Start
 
-- Start
+- Install and run
     1. Install Docker, Docker compose
     2. Run Makefile
     ```Shell 
