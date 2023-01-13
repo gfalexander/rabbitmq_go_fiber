@@ -1,7 +1,7 @@
 # **Go Fiber RabbitMQ**
    This project was created purposed by being a RabbitMQ messenger example.
 ## **About**
-    Project for RabbitMQ studying using Golang and Fiber
+   Project for RabbitMQ studying using Golang and Fiber
 
 ## Quick Start
 
